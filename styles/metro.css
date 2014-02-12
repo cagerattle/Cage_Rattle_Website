@@ -1,0 +1,280 @@
+
+/*-----------Item elements---------------*/
+
+.wrap .item  .description {
+    background: rgba(0,159,223,.87);
+}
+.wrap .item.even .description {
+    background: rgba(42,138,193,.87);
+}
+
+/* -----------------------------------------
+   Latest news block
+----------------------------------------- */
+.metrocontainer {
+	width: 100%;
+}
+
+.wrap {
+    position: relative;
+    z-index: auto;
+	max-width: 1600px;
+	margin:auto;
+
+}
+.wrap.no-scroll {
+    height: auto;
+}
+.scroll-box {
+    position: absolute;
+    height: 545px;
+    overflow: auto;
+    z-index: auto;
+}
+.scroll-box::-webkit-scrollbar {
+    height: 12px;
+}
+
+
+.scroll-box::-webkit-scrollbar-track-piece  {
+    background-color: #f0f3f4;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+    background: #57bae8;
+}
+.scroll-2 {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: auto;
+}
+
+
+.gr-box {
+    float: left;
+    margin-left: 0;
+    width:50%;
+}
+.wrap .item {
+    float:left;
+    position: relative;
+    margin-bottom: 4px;
+    overflow: hidden;
+    max-height: 240px;
+    z-index: auto;
+}
+.wrap .item a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.item.large{
+    margin-right: 0.25%!important;
+	margin-left: 0.25%!important;
+    width: 99.5%;
+}
+
+.item.large img{
+    width: 100%;
+
+}
+
+.item.half{
+    width: 49.5%;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
+}
+
+
+
+.no-scroll .item.large{
+    margin-left: 4px!important;
+    width: 585px;
+}
+
+.no-scroll .item.large img{
+    width: 585px;
+}
+
+.no-scroll .item.half{
+    width: 291px;
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    height: 240px;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.portfolio-item {
+    margin-right: 4px;
+}
+div.item, .item div{
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.item  .description {
+   position: absolute;
+    bottom: -100%;
+    padding: 7px 0;
+    width: 100%;
+    height: 100% ;
+    background: rgba(246,9,23,.87);
+    color: #fff;
+    -moz-transition: all .7s;
+    -webkit-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+}
+
+.no-animation .item img {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.no-animation .item:hover img {
+    -moz-transform: none;
+    -webkit-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.item  .description.disp {
+    bottom: -83%;
+}
+.item  .description p{
+    margin-top: 0px;
+}
+.portfolio-item img, .item img {
+    -moz-transition: all 1.2s;
+    -webkit-transition: all 1.2s;
+    -o-transition: all 1.2s;
+    transition: all 1.2s;
+    width: 100%;
+}
+
+.portfolio-item:hover img, .item:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-item a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.col-2-folio, .col-4-folio {
+    width: 102%;
+    margin-left: -1%;
+}
+
+.col-2-folio .portfolio-item {
+    width: 49%;
+    margin-left: 1%;
+    float: left;
+    margin-right: 0;
+    margin-bottom: 14px;
+}
+.col-4-folio .portfolio-item {
+    width: 24%;
+    margin-left: 1%;
+    float: left;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+
+.item:hover  .description {
+    bottom: -10px;
+}
+.item.even .description {
+    background: rgba(108,190,66,.87);
+}
+
+.item .description time, .item  .description h4 {
+    padding-left: 10px;
+}
+.scroll-box .item  .description time, .scroll-box .item  .description h4 {
+    padding-left: 52px;
+}
+.item  .description h1 {
+    color: #fff;
+	margin: 0px;
+	padding: 0 0 0 10px;
+	font-size: 40px;
+	letter-spacing: -3px;
+}
+.item  .description p {
+    padding: 0 10px 10px 10px;
+}
+.item .description time {
+    color: #a1eeff;
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.item.even .description time {
+    color: #cfffbc;
+}
+
+ul.techcats {
+	margin-right: 10px;
+	float:right;
+	position: absolute;
+	bottom: 7px;
+	right:0px;
+}
+
+ul.techcats li {
+	display:inline-block;
+	width: 34px;
+	height: 34px;
+	padding: 5px;
+}
+
+ul.techcats li.wordpress {
+	background:url(../images/icons/forma_icon_385.png) top center no-repeat;
+}
+ul.techcats li.mobile {
+	background:url(../images/icons/forma_icon_8.png) top center no-repeat;
+}
+ul.techcats li.cms {
+	background:url(../images/icons/forma_icon_41.png) top center no-repeat;
+}
+ul.techcats li.branding {
+	background:url(../images/icons/forma_icon_448.png) top center no-repeat;
+}
+ul.techcats li.content-curation {
+	background:url(../images/icons/forma_icon_56.png) top center no-repeat;
+}
+ul.techcats li.ecommerce {
+	background:url(../images/icons/forma_icon_77.png) top center no-repeat;
+}
+ul.techcats li.responsive {
+	background:url(../images/icons/forma_icon_40.png) top center no-repeat;
+}
